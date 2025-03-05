@@ -2,170 +2,181 @@
     margin: 0;
     padding: 0;
 }
-body
-{
+
+body{
     background-color: #a73e2d;
     font-family: Arial, Helvetica, sans-serif;
 }
-img
-{
+
+img{
     max-width: 100%;
     display: block;
     object-fit: cover;
 }
-header
-{
+
+
+
+
+header{
     margin: auto;
     background-color: #231719;  
 }
-section
-{
-    max-width: 1100px;
-    margin: auto;
-    padding: 80px 16px;
 
-
-}
-nav
-{
+nav{
     margin: auto;
     max-width: 1440px;
     justify-content: center;
     align-content: center;
-    padding: 16px 80px 16px 64px ;
-
+    padding: 16px 80px 16px 64px;
 }
-.divisorio
-{
+
+.divisorio{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
-nav ul
-{
-    display: flex;
 
+nav ul{
+    display: flex;
 }
+
 nav li
 {
     list-style: none;
-   
-    
 }
-.link a 
-{
+
+.link a{
     padding: 8px 48px;
 }
-.giovanni
-{
+
+.bordino{
     border-right: solid 3px white;
-}
-nav a 
-{
+} /* al posto di giovanni ci ho messo bordino per la righetta bianca nella navigazione e nel footer */
+
+nav a{
     font-weight: bold;
     text-transform: uppercase;
     color: white;
     text-decoration: none;
 
 }
-nav a:hover
-{
+
+nav a:hover{
     text-decoration:underline ;
 }
-.home
+
+
+
+
+section
 {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 16px;
+}
+
+
+
+
+.flex{
+    display:flex;
+    gap: 16px;
+}
+
+.text{
+    margin: auto;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.immagini{
+    display: flex;
+    margin: auto;
+    gap: 16px;
+}
+
+.testo{
+    margin: auto;
+    max-width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.particolare{
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+.pippo{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.home{
     font-size: 48px;
     font-weight: 600;
 }
-.flex
-{
-    display:flex;
-    gap: 16px;
-    justify-content:flex-end;
-    align-items: center;
 
-}
-.pippo
-{
-display: flex;
-gap: 48px;
-justify-content: center;
-align-items: center;
-}
-.imgfloraefauna
-{
-    padding-top: 48px;
-}
-.ture
-{
-    padding-top: 32px;
-}
-.GranParadiso
-{
-    max-width: 50%;
-}
-h1
-{
+h1{
     font-size: 48px;
     color: white;
     padding-bottom: 32px;
 }
-h2
-{
+
+h2{
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 12px;
     padding-top: 12px;
     color: white;
 }
-p
-{
+
+p{
     font-size: 18px;
     color: white;
+    padding-bottom: 32px;
+}
 
-}
-.sezione1 p
-{
-    padding-bottom: 24px;
-}
-.franco
-{
-    max-width: 30%;
-}
-footer
-{
+
+
+
+footer{
     margin: auto;
     background-color: #231719;  
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footernav
-{
+
+.footernav{
     justify-content: center;
     align-items: center;
     margin: auto;
     max-width: 1440px;
     padding: 36px;
 }
-.footernav li
-{
+
+.footernav li{
     list-style: none;
 }
-.footernav ul
-{
+
+.footernav ul{
     display: flex;
 }
-.footernav a
-{
+
+.footernav a{
     font-weight: bold;
     text-transform: uppercase;
     color: white;
     text-decoration: none;
-
 }
-.footernav a:hover
-{
+
+.footernav a:hover{
     text-decoration: underline;
 }
